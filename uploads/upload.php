@@ -139,6 +139,6 @@
 ?>
 
 <head>
-	<meta http-equiv="refresh" content="10; URL=../index.php?" />
+	<meta http-equiv="refresh" content="0; URL=../index.php?" />
 
 </head>
