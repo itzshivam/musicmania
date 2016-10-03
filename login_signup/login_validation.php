@@ -3,12 +3,7 @@
 // Check connectection
 
 session_start();
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database="musicmania";
-// Create connection
-$connect = new mysqli($servername, $username, $password,$database);
+require "../connect_server.php";
 
 if ($connect->connect_error) {
     die("Connection failed: " . $connect->connect_error);

@@ -1,13 +1,6 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database="musicmania";
-// Create connection
-$connect = new mysqli($servername, $username, $password,$database);
-
-// rgb(230, 40, 40)
+// include "../connect_server.php";
 
 ?>
 

@@ -2,6 +2,7 @@
 <?php
     
 session_start();
+require "connect_server.php";
     if(!isset($_SESSION['mm_username']))
     {
         echo("<head>");
@@ -175,6 +176,7 @@ session_start();
                                 </div>
                                        <div id="search_box">
                                           <?php require "search_box/search_box.php";?>
+                                          
                                         </div>
                                 <div id="display_songs">
                                     <?php 
